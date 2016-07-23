@@ -1,20 +1,21 @@
-body {
-    background-color: brown;
-    margin: 0;
+﻿body {
+	background-color:fuchsia;
+	margin: 0;
 }
-    p{
-        color:greenyellow
-    }
-        .menu{background-color: greenyellow}
-         #header {
-            color: green;
-        }
+
+.menu{
+	background-color:fff:
+	
+}
+
+
+
 ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #39871C;
+    background-color: #333;
 }
 
 li {
@@ -31,4 +32,30 @@ li a {
 
 li a:hover {
     background-color: #111;
+}ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: #111;
+}
+
+.active {
+    background-color: #4CAF50;
 }
